@@ -20,6 +20,7 @@ namespace Piranha.AspNetCore.Identity.EF
                 options.UseSqlServer(config.ConnectionString));
 
             services.AddScoped(typeof(IRepository<>), typeof(EfRepository<>));
+            services.AddScoped<AppUserRepository>();
 
             services.AddIdentity<IdentityAppUser, IdentityRole>()
                 .AddEntityFrameworkStores<PiranhaIdentityDbContext>()
