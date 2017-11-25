@@ -16,6 +16,7 @@
     <Company>Gyre Technologies Inc</Company>
     <Copyright>Copyright 2017 (c) Keshwar White</Copyright>
     <Product>PiranhaCMS Identity EF Module</Product>
+    <PackageId>GyreTech.Piranha.AspNetCore.Identity.EF</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
