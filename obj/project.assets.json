@@ -1045,6 +1045,36 @@
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
         }
       },
+      "Piranha/4.0.0-beta1": {
+        "type": "package",
+        "dependencies": {
+          "AutoMapper": "6.1.1",
+          "Dapper": "1.50.2",
+          "Markdig": "0.13.1",
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Piranha.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Piranha.dll": {}
+        }
+      },
+      "Piranha.AspNetCore/4.0.0-beta1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http": "2.0.0",
+          "Microsoft.AspNetCore.Http.Extensions": "2.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.0.0",
+          "Piranha": "4.0.0-beta1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Piranha.AspNetCore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Piranha.AspNetCore.dll": {}
+        }
+      },
       "Remotion.Linq/2.1.1": {
         "type": "package",
         "dependencies": {
@@ -1936,22 +1966,6 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
-        }
-      },
-      "Piranha/4.0.0-beta1": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "AutoMapper": "6.1.1",
-          "Dapper": "1.50.2",
-          "Markdig": "0.13.1",
-          "Newtonsoft.Json": "10.0.3"
-        },
-        "compile": {
-          "bin/placeholder/Piranha.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Piranha.dll": {}
         }
       }
     }
@@ -2990,6 +3004,26 @@
         "tools/install.ps1"
       ]
     },
+    "Piranha/4.0.0-beta1": {
+      "sha512": "sxw3EcoYlha/yBpBgpaqayuDzTBvoWYxo891J+Q0NSTqBNwq5dxUQBeSk/w0OE7yXd3cSg+yzYVcntiB1b82lA==",
+      "type": "package",
+      "path": "piranha/4.0.0-beta1",
+      "files": [
+        "lib/netstandard2.0/Piranha.dll",
+        "piranha.4.0.0-beta1.nupkg.sha512",
+        "piranha.nuspec"
+      ]
+    },
+    "Piranha.AspNetCore/4.0.0-beta1": {
+      "sha512": "1oDemssrfGredcUlc9wdki21PwU6dwzcb7NwjikUei0lJairphyX10ZijActdNEVBmkYSFXh4cdZ+eyCPJJPAw==",
+      "type": "package",
+      "path": "piranha.aspnetcore/4.0.0-beta1",
+      "files": [
+        "lib/netstandard2.0/Piranha.AspNetCore.dll",
+        "piranha.aspnetcore.4.0.0-beta1.nupkg.sha512",
+        "piranha.aspnetcore.nuspec"
+      ]
+    },
     "Remotion.Linq/2.1.1": {
       "sha512": "IJn0BqkvwEDpP+2qjvci7n4/a9f7DhKESLWb2/uG4xQh3rTkGTBUz69bI4IivCoKkTFAqjXxYDZw2K/npohjsw==",
       "type": "package",
@@ -3706,6 +3740,8 @@
       "type": "package",
       "path": "system.diagnostics.tools/4.0.1",
       "files": [
+        "System.Diagnostics.Tools.4.0.1.nupkg.sha512",
+        "System.Diagnostics.Tools.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3751,9 +3787,7 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "system.diagnostics.tools.4.0.1.nupkg.sha512",
-        "system.diagnostics.tools.nuspec"
+        "ref/xamarinwatchos10/_._"
       ]
     },
     "System.Diagnostics.Tracing/4.3.0": {
@@ -5960,6 +5994,8 @@
       "type": "package",
       "path": "system.xml.xdocument/4.0.11",
       "files": [
+        "System.Xml.XDocument.4.0.11.nupkg.sha512",
+        "System.Xml.XDocument.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6018,9 +6054,7 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "system.xml.xdocument.4.0.11.nupkg.sha512",
-        "system.xml.xdocument.nuspec"
+        "ref/xamarinwatchos10/_._"
       ]
     },
     "System.Xml.XmlDocument/4.3.0": {
@@ -6059,11 +6093,6 @@
         "system.xml.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xmldocument.nuspec"
       ]
-    },
-    "Piranha/4.0.0-beta1": {
-      "type": "project",
-      "path": "../Piranha/Piranha.csproj",
-      "msbuildProject": "../Piranha/Piranha.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6074,7 +6103,7 @@
       "Microsoft.EntityFrameworkCore >= 2.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.0.1",
       "NETStandard.Library >= 2.0.0",
-      "Piranha >= 4.0.0-beta1"
+      "Piranha.AspNetCore >= 4.0.0-beta1"
     ]
   },
   "packageFolders": {
@@ -6087,11 +6116,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Source\\Workspaces\\Gyre Technologies\\Dev\\Source\\Gyre Technologies\\Source\\Cms\\Piranha.AspNetCore.Identity.EF\\Piranha.AspNetCore.Identity.EF.csproj",
+      "projectUniqueName": "F:\\GitHub\\PiranhaCore-Identity-EF-Module\\Piranha.AspNetCore.Identity.EF.csproj",
       "projectName": "Piranha.AspNetCore.Identity.EF",
-      "projectPath": "D:\\Source\\Workspaces\\Gyre Technologies\\Dev\\Source\\Gyre Technologies\\Source\\Cms\\Piranha.AspNetCore.Identity.EF\\Piranha.AspNetCore.Identity.EF.csproj",
+      "projectPath": "F:\\GitHub\\PiranhaCore-Identity-EF-Module\\Piranha.AspNetCore.Identity.EF.csproj",
       "packagesPath": "C:\\Users\\Keshwar White\\.nuget\\packages\\",
-      "outputPath": "D:\\Source\\Workspaces\\Gyre Technologies\\Dev\\Source\\Gyre Technologies\\Source\\Cms\\Piranha.AspNetCore.Identity.EF\\obj\\",
+      "outputPath": "F:\\GitHub\\PiranhaCore-Identity-EF-Module\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6109,11 +6138,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {
-            "D:\\Source\\Workspaces\\Gyre Technologies\\Dev\\Source\\Gyre Technologies\\Source\\Cms\\Piranha\\Piranha.csproj": {
-              "projectPath": "D:\\Source\\Workspaces\\Gyre Technologies\\Dev\\Source\\Gyre Technologies\\Source\\Cms\\Piranha\\Piranha.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -6146,6 +6171,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "2.0.1"
+          },
+          "Piranha.AspNetCore": {
+            "target": "Package",
+            "version": "4.0.0-beta1"
           },
           "Microsoft.AspNetCore.Identity": {
             "target": "Package",

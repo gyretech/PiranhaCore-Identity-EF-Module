@@ -9,3 +9,9 @@
 \\Keshwar-WS\Source\Workspaces\Gyre Technologies\Dev\Source\Gyre Technologies\Source\Cms\Piranha.AspNetCore.Identity.EF\obj\Debug\netstandard2.0\Piranha.AspNetCore.Identity.EF.AssemblyInfo.cs
 \\Keshwar-WS\Source\Workspaces\Gyre Technologies\Dev\Source\Gyre Technologies\Source\Cms\Piranha.AspNetCore.Identity.EF\obj\Debug\netstandard2.0\Piranha.AspNetCore.Identity.EF.dll
 \\Keshwar-WS\Source\Workspaces\Gyre Technologies\Dev\Source\Gyre Technologies\Source\Cms\Piranha.AspNetCore.Identity.EF\obj\Debug\netstandard2.0\Piranha.AspNetCore.Identity.EF.pdb
+F:\GitHub\PiranhaCore-Identity-EF-Module\bin\Debug\netstandard2.0\Piranha.AspNetCore.Identity.EF.deps.json
+F:\GitHub\PiranhaCore-Identity-EF-Module\bin\Debug\netstandard2.0\Piranha.AspNetCore.Identity.EF.dll
+F:\GitHub\PiranhaCore-Identity-EF-Module\obj\Debug\netstandard2.0\Piranha.AspNetCore.Identity.EF.csprojResolveAssemblyReference.cache
+F:\GitHub\PiranhaCore-Identity-EF-Module\obj\Debug\netstandard2.0\Piranha.AspNetCore.Identity.EF.csproj.CoreCompileInputs.cache
+F:\GitHub\PiranhaCore-Identity-EF-Module\obj\Debug\netstandard2.0\Piranha.AspNetCore.Identity.EF.AssemblyInfoInputs.cache
+F:\GitHub\PiranhaCore-Identity-EF-Module\obj\Debug\netstandard2.0\Piranha.AspNetCore.Identity.EF.AssemblyInfo.cs
