@@ -1,13 +1,11 @@
-﻿using System.Security.Claims;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
+using System.Security.Claims;
+using System.Threading.Tasks;
 
 namespace Piranha.AspNetCore.Identity.EF
 {
-    public class IdentityAppClaimsPrincipalFactory : UserClaimsPrincipalFactory<IdentityAppUser, Microsoft.AspNetCore.Identity.IdentityRole>
+    class IdentityAppClaimsPrincipalFactory : UserClaimsPrincipalFactory<IdentityAppUser, IdentityRole>
     {
         public IdentityAppClaimsPrincipalFactory(UserManager<IdentityAppUser> userManager, RoleManager<Microsoft.AspNetCore.Identity.IdentityRole> roleManager, IOptions<IdentityOptions> options) : base(userManager, roleManager, options)
         {

@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 
 namespace Piranha.AspNetCore.Identity.EF
@@ -29,7 +28,7 @@ namespace Piranha.AspNetCore.Identity.EF
         /// Gets/set if we should enable First Name and Last Name Claims
         /// </summary>
         public bool EnableFirstLastNameClaim { get; set; }
-        
+
 
         /// <summary>
         /// Gets/sets the optional Identity options.

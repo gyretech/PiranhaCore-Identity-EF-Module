@@ -1,7 +1,5 @@
-﻿using System;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-
 
 namespace Piranha.AspNetCore.Identity.EF
 {
@@ -18,6 +16,6 @@ namespace Piranha.AspNetCore.Identity.EF
             base.OnModelCreating(builder);
         }
 
-        
+
     }
 }

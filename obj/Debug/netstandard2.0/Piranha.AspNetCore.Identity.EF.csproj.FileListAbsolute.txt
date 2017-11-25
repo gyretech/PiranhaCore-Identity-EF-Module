@@ -1,0 +1,11 @@
+\\Keshwar-WS\Source\Workspaces\Gyre Technologies\Dev\Source\Gyre Technologies\Source\Cms\Piranha.AspNetCore.Identity.EF\bin\Debug\netstandard2.0\Piranha.AspNetCore.Identity.EF.deps.json
+\\Keshwar-WS\Source\Workspaces\Gyre Technologies\Dev\Source\Gyre Technologies\Source\Cms\Piranha.AspNetCore.Identity.EF\bin\Debug\netstandard2.0\Piranha.AspNetCore.Identity.EF.dll
+\\Keshwar-WS\Source\Workspaces\Gyre Technologies\Dev\Source\Gyre Technologies\Source\Cms\Piranha.AspNetCore.Identity.EF\bin\Debug\netstandard2.0\Piranha.AspNetCore.Identity.EF.pdb
+\\Keshwar-WS\Source\Workspaces\Gyre Technologies\Dev\Source\Gyre Technologies\Source\Cms\Piranha.AspNetCore.Identity.EF\bin\Debug\netstandard2.0\Piranha.dll
+\\Keshwar-WS\Source\Workspaces\Gyre Technologies\Dev\Source\Gyre Technologies\Source\Cms\Piranha.AspNetCore.Identity.EF\bin\Debug\netstandard2.0\Piranha.pdb
+\\Keshwar-WS\Source\Workspaces\Gyre Technologies\Dev\Source\Gyre Technologies\Source\Cms\Piranha.AspNetCore.Identity.EF\obj\Debug\netstandard2.0\Piranha.AspNetCore.Identity.EF.csprojResolveAssemblyReference.cache
+\\Keshwar-WS\Source\Workspaces\Gyre Technologies\Dev\Source\Gyre Technologies\Source\Cms\Piranha.AspNetCore.Identity.EF\obj\Debug\netstandard2.0\Piranha.AspNetCore.Identity.EF.csproj.CoreCompileInputs.cache
+\\Keshwar-WS\Source\Workspaces\Gyre Technologies\Dev\Source\Gyre Technologies\Source\Cms\Piranha.AspNetCore.Identity.EF\obj\Debug\netstandard2.0\Piranha.AspNetCore.Identity.EF.AssemblyInfoInputs.cache
+\\Keshwar-WS\Source\Workspaces\Gyre Technologies\Dev\Source\Gyre Technologies\Source\Cms\Piranha.AspNetCore.Identity.EF\obj\Debug\netstandard2.0\Piranha.AspNetCore.Identity.EF.AssemblyInfo.cs
+\\Keshwar-WS\Source\Workspaces\Gyre Technologies\Dev\Source\Gyre Technologies\Source\Cms\Piranha.AspNetCore.Identity.EF\obj\Debug\netstandard2.0\Piranha.AspNetCore.Identity.EF.dll
+\\Keshwar-WS\Source\Workspaces\Gyre Technologies\Dev\Source\Gyre Technologies\Source\Cms\Piranha.AspNetCore.Identity.EF\obj\Debug\netstandard2.0\Piranha.AspNetCore.Identity.EF.pdb
