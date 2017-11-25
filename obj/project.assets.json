@@ -1060,7 +1060,31 @@
           "lib/netstandard2.0/Piranha.dll": {}
         }
       },
-      {
+      "Remotion.Linq/2.1.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections": "4.0.11",
+          "System.Diagnostics.Debug": "4.0.11",
+          "System.Linq": "4.1.0",
+          "System.Linq.Expressions": "4.1.0",
+          "System.Linq.Queryable": "4.0.1",
+          "System.ObjectModel": "4.0.12",
+          "System.Reflection": "4.1.0",
+          "System.Reflection.Extensions": "4.0.1",
+          "System.Runtime": "4.1.0",
+          "System.Runtime.Extensions": "4.1.0",
+          "System.Threading": "4.0.11"
+        },
+        "compile": {
+          "lib/netstandard1.0/Remotion.Linq.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Remotion.Linq.dll": {}
+        }
+      },
+      "runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "type": "package",
+        "dependencies": {
           "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
           "runtime.win-x64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
           "runtime.win-x86.runtime.native.System.Data.SqlClient.sni": "4.4.0"
@@ -2975,21 +2999,13 @@
         "piranha.nuspec"
       ]
     },
-    "Piranha.AspNetCore/4.0.0-beta1": {
-      "sha512": "1oDemssrfGredcUlc9wdki21PwU6dwzcb7NwjikUei0lJairphyX10ZijActdNEVBmkYSFXh4cdZ+eyCPJJPAw==",
-      "type": "package",
-      "path": "piranha.aspnetcore/4.0.0-beta1",
-      "files": [
-        "lib/netstandard2.0/Piranha.AspNetCore.dll",
-        "piranha.aspnetcore.4.0.0-beta1.nupkg.sha512",
-        "piranha.aspnetcore.nuspec"
-      ]
-    },
     "Remotion.Linq/2.1.1": {
       "sha512": "IJn0BqkvwEDpP+2qjvci7n4/a9f7DhKESLWb2/uG4xQh3rTkGTBUz69bI4IivCoKkTFAqjXxYDZw2K/npohjsw==",
       "type": "package",
       "path": "remotion.linq/2.1.1",
       "files": [
+        "Remotion.Linq.2.1.1.nupkg.sha512",
+        "Remotion.Linq.nuspec",
         "lib/net35/Remotion.Linq.XML",
         "lib/net35/Remotion.Linq.dll",
         "lib/net40/Remotion.Linq.XML",
@@ -2999,9 +3015,7 @@
         "lib/netstandard1.0/Remotion.Linq.dll",
         "lib/netstandard1.0/Remotion.Linq.xml",
         "lib/portable-net45+win+wpa81+wp80/Remotion.Linq.dll",
-        "lib/portable-net45+win+wpa81+wp80/Remotion.Linq.xml",
-        "remotion.linq.2.1.1.nupkg.sha512",
-        "remotion.linq.nuspec"
+        "lib/portable-net45+win+wpa81+wp80/Remotion.Linq.xml"
       ]
     },
     "runtime.native.System.Data.SqlClient.sni/4.4.0": {
@@ -3701,6 +3715,8 @@
       "type": "package",
       "path": "system.diagnostics.tools/4.0.1",
       "files": [
+        "System.Diagnostics.Tools.4.0.1.nupkg.sha512",
+        "System.Diagnostics.Tools.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3746,9 +3762,7 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "system.diagnostics.tools.4.0.1.nupkg.sha512",
-        "system.diagnostics.tools.nuspec"
+        "ref/xamarinwatchos10/_._"
       ]
     },
     "System.Diagnostics.Tracing/4.3.0": {
@@ -5955,6 +5969,8 @@
       "type": "package",
       "path": "system.xml.xdocument/4.0.11",
       "files": [
+        "System.Xml.XDocument.4.0.11.nupkg.sha512",
+        "System.Xml.XDocument.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6013,9 +6029,7 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "system.xml.xdocument.4.0.11.nupkg.sha512",
-        "system.xml.xdocument.nuspec"
+        "ref/xamarinwatchos10/_._"
       ]
     },
     "System.Xml.XmlDocument/4.3.0": {
@@ -6064,7 +6078,7 @@
       "Microsoft.EntityFrameworkCore >= 2.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.0.1",
       "NETStandard.Library >= 2.0.0",
-      "Piranha.AspNetCore >= 4.0.0-beta1"
+      "Piranha >= 4.0.0-beta1"
     ]
   },
   "packageFolders": {
@@ -6123,6 +6137,10 @@
             "target": "Package",
             "version": "2.0.1"
           },
+          "Piranha": {
+            "target": "Package",
+            "version": "4.0.0-beta1"
+          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
@@ -6132,10 +6150,6 @@
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "2.0.1"
-          },
-          "Piranha.AspNetCore": {
-            "target": "Package",
-            "version": "4.0.0-beta1"
           },
           "Microsoft.AspNetCore.Identity": {
             "target": "Package",
