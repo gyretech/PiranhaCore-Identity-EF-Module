@@ -18,17 +18,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="..\..\Common\SystemExtensions.cs" Link="System\SystemExtensions.cs" />
-    <Compile Include="..\..\Common\Throw.cs" Link="System\Throw.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore" Version="2.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="2.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.1" />
-    <Folder Include="System\" />
+    <PackageReference Include="Piranha" Version="4.0.0-beta1" />
   </ItemGroup>
 
 </Project>

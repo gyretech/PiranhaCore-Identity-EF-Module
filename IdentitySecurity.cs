@@ -61,17 +61,20 @@ namespace Piranha.AspNetCore.Identity.EF
                 }
             }
         }
-        
-        public async Task<bool> Authenticate(string username, string password)
+
+
+        public bool Authenticate(string username, string password)
         {
-            var user = await _userManager.FindByNameAsync(username);
+            var user = _userManager.FindByNameAsync(username).Result;
 
             if (user == null) return false;
 
-            var result = await _signInManager.CheckPasswordSignInAsync(user, password, false);
+            var result = _signInManager.CheckPasswordSignInAsync(user, password, false).Result;
 
             return result.IsNotAllowed;
         }
+
+       
 
         public async Task<bool> SignIn(object context, string username, string password)
         {
@@ -138,5 +141,7 @@ namespace Piranha.AspNetCore.Identity.EF
                 }
             }
         }
+
+        
     }
 }
