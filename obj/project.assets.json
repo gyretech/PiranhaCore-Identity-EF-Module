@@ -1045,31 +1045,22 @@
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
         }
       },
-      "Remotion.Linq/2.1.1": {
+      "Piranha/4.0.0-beta1": {
         "type": "package",
         "dependencies": {
-          "System.Collections": "4.0.11",
-          "System.Diagnostics.Debug": "4.0.11",
-          "System.Linq": "4.1.0",
-          "System.Linq.Expressions": "4.1.0",
-          "System.Linq.Queryable": "4.0.1",
-          "System.ObjectModel": "4.0.12",
-          "System.Reflection": "4.1.0",
-          "System.Reflection.Extensions": "4.0.1",
-          "System.Runtime": "4.1.0",
-          "System.Runtime.Extensions": "4.1.0",
-          "System.Threading": "4.0.11"
+          "AutoMapper": "6.1.1",
+          "Dapper": "1.50.2",
+          "Markdig": "0.13.1",
+          "Newtonsoft.Json": "10.0.3"
         },
         "compile": {
-          "lib/netstandard1.0/Remotion.Linq.dll": {}
+          "lib/netstandard2.0/Piranha.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.0/Remotion.Linq.dll": {}
+          "lib/netstandard2.0/Piranha.dll": {}
         }
       },
-      "runtime.native.System.Data.SqlClient.sni/4.4.0": {
-        "type": "package",
-        "dependencies": {
+      {
           "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
           "runtime.win-x64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
           "runtime.win-x86.runtime.native.System.Data.SqlClient.sni": "4.4.0"
@@ -1936,22 +1927,6 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
-        }
-      },
-      "Piranha/4.0.0-beta1": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "AutoMapper": "6.1.1",
-          "Dapper": "1.50.2",
-          "Markdig": "0.13.1",
-          "Newtonsoft.Json": "10.0.3"
-        },
-        "compile": {
-          "bin/placeholder/Piranha.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Piranha.dll": {}
         }
       }
     }
@@ -2988,6 +2963,26 @@
         "newtonsoft.json.10.0.3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "tools/install.ps1"
+      ]
+    },
+    "Piranha/4.0.0-beta1": {
+      "sha512": "sxw3EcoYlha/yBpBgpaqayuDzTBvoWYxo891J+Q0NSTqBNwq5dxUQBeSk/w0OE7yXd3cSg+yzYVcntiB1b82lA==",
+      "type": "package",
+      "path": "piranha/4.0.0-beta1",
+      "files": [
+        "lib/netstandard2.0/Piranha.dll",
+        "piranha.4.0.0-beta1.nupkg.sha512",
+        "piranha.nuspec"
+      ]
+    },
+    "Piranha.AspNetCore/4.0.0-beta1": {
+      "sha512": "1oDemssrfGredcUlc9wdki21PwU6dwzcb7NwjikUei0lJairphyX10ZijActdNEVBmkYSFXh4cdZ+eyCPJJPAw==",
+      "type": "package",
+      "path": "piranha.aspnetcore/4.0.0-beta1",
+      "files": [
+        "lib/netstandard2.0/Piranha.AspNetCore.dll",
+        "piranha.aspnetcore.4.0.0-beta1.nupkg.sha512",
+        "piranha.aspnetcore.nuspec"
       ]
     },
     "Remotion.Linq/2.1.1": {
@@ -6059,11 +6054,6 @@
         "system.xml.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xmldocument.nuspec"
       ]
-    },
-    "Piranha/4.0.0-beta1": {
-      "type": "project",
-      "path": "../Piranha/Piranha.csproj",
-      "msbuildProject": "../Piranha/Piranha.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6074,7 +6064,7 @@
       "Microsoft.EntityFrameworkCore >= 2.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.0.1",
       "NETStandard.Library >= 2.0.0",
-      "Piranha >= 4.0.0-beta1"
+      "Piranha.AspNetCore >= 4.0.0-beta1"
     ]
   },
   "packageFolders": {
@@ -6087,11 +6077,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Source\\Workspaces\\Gyre Technologies\\Dev\\Source\\Gyre Technologies\\Source\\Cms\\Piranha.AspNetCore.Identity.EF\\Piranha.AspNetCore.Identity.EF.csproj",
+      "projectUniqueName": "F:\\GitHub\\PiranhaCore-Identity-EF-Module\\Piranha.AspNetCore.Identity.EF.csproj",
       "projectName": "Piranha.AspNetCore.Identity.EF",
-      "projectPath": "D:\\Source\\Workspaces\\Gyre Technologies\\Dev\\Source\\Gyre Technologies\\Source\\Cms\\Piranha.AspNetCore.Identity.EF\\Piranha.AspNetCore.Identity.EF.csproj",
+      "projectPath": "F:\\GitHub\\PiranhaCore-Identity-EF-Module\\Piranha.AspNetCore.Identity.EF.csproj",
       "packagesPath": "C:\\Users\\Keshwar White\\.nuget\\packages\\",
-      "outputPath": "D:\\Source\\Workspaces\\Gyre Technologies\\Dev\\Source\\Gyre Technologies\\Source\\Cms\\Piranha.AspNetCore.Identity.EF\\obj\\",
+      "outputPath": "F:\\GitHub\\PiranhaCore-Identity-EF-Module\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6109,11 +6099,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {
-            "D:\\Source\\Workspaces\\Gyre Technologies\\Dev\\Source\\Gyre Technologies\\Source\\Cms\\Piranha\\Piranha.csproj": {
-              "projectPath": "D:\\Source\\Workspaces\\Gyre Technologies\\Dev\\Source\\Gyre Technologies\\Source\\Cms\\Piranha\\Piranha.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -6146,6 +6132,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "2.0.1"
+          },
+          "Piranha.AspNetCore": {
+            "target": "Package",
+            "version": "4.0.0-beta1"
           },
           "Microsoft.AspNetCore.Identity": {
             "target": "Package",
