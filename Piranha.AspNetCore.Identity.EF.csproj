@@ -1,29 +1,33 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup Label="Globals">
-    <SccProjectName>SAK</SccProjectName>
-    <SccProvider>SAK</SccProvider>
-    <SccAuxPath>SAK</SccAuxPath>
-    <SccLocalPath>SAK</SccLocalPath>
-  </PropertyGroup>
-
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>PiranhaCore Module that handles ASP.NET Core Identity with Entity Framework as the backing store.</Description>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <FileVersion>1.2.0.0</FileVersion>
+    <PackageProjectUrl>https://github.com/gyretech/PiranhaCore-Identity-EF-Manager-Module</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/gyretech/PiranhaCore-Identity-EF-Manager-Module/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/gyretech/PiranhaCore-Identity-EF-Manager-Module</RepositoryUrl>
+    <PackageTags>piranha, cms, aspnetcore</PackageTags>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.2</Version>
+    <Authors>Keshwar White</Authors>
+    <Company>Gyre Technologies Inc</Company>
+    <Copyright>Copyright 2017 (c) Keshwar White</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="..\..\Common\SystemExtensions.cs" Link="System\SystemExtensions.cs" />
     <Compile Include="..\..\Common\Throw.cs" Link="System\Throw.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="System\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="2.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -31,12 +35,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="Microsoft.EntityFrameworkCore.SqlServer">
-      <HintPath>C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.entityframeworkcore.sqlserver\2.0.0\lib\netstandard2.0\Microsoft.EntityFrameworkCore.SqlServer.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Extensions.Identity.Stores">
-      <HintPath>C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.identity.stores\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Identity.Stores.dll</HintPath>
-    </Reference>
+    <Folder Include="System\" />
   </ItemGroup>
 
 </Project>

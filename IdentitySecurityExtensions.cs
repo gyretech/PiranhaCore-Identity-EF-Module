@@ -50,6 +50,7 @@ namespace Piranha.AspNetCore.Identity.EF
                 });
             }
 
+
             return services.AddSingleton<ISecurity,IdentitySecurity>();
         }
 

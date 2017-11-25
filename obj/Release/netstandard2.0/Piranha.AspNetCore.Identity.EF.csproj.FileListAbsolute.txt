@@ -1,0 +1,11 @@
+D:\Source\Workspaces\Gyre Technologies\Dev\Source\Gyre Technologies\Source\Cms\Piranha.AspNetCore.Identity.EF\bin\Release\netstandard2.0\Piranha.AspNetCore.Identity.EF.deps.json
+D:\Source\Workspaces\Gyre Technologies\Dev\Source\Gyre Technologies\Source\Cms\Piranha.AspNetCore.Identity.EF\bin\Release\netstandard2.0\Piranha.AspNetCore.Identity.EF.dll
+D:\Source\Workspaces\Gyre Technologies\Dev\Source\Gyre Technologies\Source\Cms\Piranha.AspNetCore.Identity.EF\bin\Release\netstandard2.0\Piranha.AspNetCore.Identity.EF.pdb
+D:\Source\Workspaces\Gyre Technologies\Dev\Source\Gyre Technologies\Source\Cms\Piranha.AspNetCore.Identity.EF\bin\Release\netstandard2.0\Piranha.dll
+D:\Source\Workspaces\Gyre Technologies\Dev\Source\Gyre Technologies\Source\Cms\Piranha.AspNetCore.Identity.EF\bin\Release\netstandard2.0\Piranha.pdb
+D:\Source\Workspaces\Gyre Technologies\Dev\Source\Gyre Technologies\Source\Cms\Piranha.AspNetCore.Identity.EF\obj\Release\netstandard2.0\Piranha.AspNetCore.Identity.EF.csprojResolveAssemblyReference.cache
+D:\Source\Workspaces\Gyre Technologies\Dev\Source\Gyre Technologies\Source\Cms\Piranha.AspNetCore.Identity.EF\obj\Release\netstandard2.0\Piranha.AspNetCore.Identity.EF.csproj.CoreCompileInputs.cache
+D:\Source\Workspaces\Gyre Technologies\Dev\Source\Gyre Technologies\Source\Cms\Piranha.AspNetCore.Identity.EF\obj\Release\netstandard2.0\Piranha.AspNetCore.Identity.EF.AssemblyInfoInputs.cache
+D:\Source\Workspaces\Gyre Technologies\Dev\Source\Gyre Technologies\Source\Cms\Piranha.AspNetCore.Identity.EF\obj\Release\netstandard2.0\Piranha.AspNetCore.Identity.EF.AssemblyInfo.cs
+D:\Source\Workspaces\Gyre Technologies\Dev\Source\Gyre Technologies\Source\Cms\Piranha.AspNetCore.Identity.EF\obj\Release\netstandard2.0\Piranha.AspNetCore.Identity.EF.dll
+D:\Source\Workspaces\Gyre Technologies\Dev\Source\Gyre Technologies\Source\Cms\Piranha.AspNetCore.Identity.EF\obj\Release\netstandard2.0\Piranha.AspNetCore.Identity.EF.pdb
