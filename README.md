@@ -1,6 +1,10 @@
+## Welcome PiranhaCMS Identity EF Module
+PiranhaCMS Module that handles ASP.NET Core Identity with Entity Framework as the backing store.
+
 | Build server | Platform     | Build status |
 |--------------|--------------|--------------|
 | AppVeyor     | Windows      | [![Build status](https://ci.appveyor.com/api/projects/status/fuaiwkwk1kpgyya7?svg=true)](https://ci.appveyor.com/project/gyretech/piranhacore-identity-ef-module)
+| Travis       | Linux / OS X | [![Build status](https://travis-ci.org/gyretech/PiranhaCore-Identity-EF-Module.svg?branch=master)](https://travis-ci.org/gyretech/PiranhaCore-Identity-EF-Module)
 
 ## Registering the Module
 
@@ -36,5 +40,8 @@ Once the Module has been configured you initialize it. Please note that generic 
     // Initialize the Identity EF module
     app.UsePiranhaIdentityEFSecurity();
     
-    ....# PiranhaCore-Identity-EF-Module
-PiranhaCore Module that handles ASP.NET Core Identity with Entity Framework as the backing store.
+    ....
+    
+
+
+
