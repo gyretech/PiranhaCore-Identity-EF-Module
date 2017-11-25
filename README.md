@@ -1,3 +1,6 @@
+| Build server | Platform     | Build status |
+|--------------|--------------|--------------|
+| AppVeyor     | Windows      | [![Build status](https://ci.appveyor.com/api/projects/status/fuaiwkwk1kpgyya7?svg=true)](https://ci.appveyor.com/project/gyretech/piranhacore-identity-ef-module)
 
 ## Registering the Module
 
