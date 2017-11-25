@@ -1,2 +1,37 @@
-# PiranhaCore-Identity-EF-Module
+
+## Registering the Module
+
+You register the Module by hooking it into the services. Please note that generic AspNetCore & Piranha setup has been omitted. However you should register the Module after your other Piranha CMS configurations.
+
+    public IServiceProvider ConfigureServices(IServiceCollection services) {
+      .... 
+      services.AddPiranhaIdentitySecurityEF(o => 
+      {
+        o.ConnectionString = defaultConnection;
+        o.Migrate = true;
+        o.Users = new[] 
+        {
+          new IdentityAppUser(Piranha.Manager.Permission.All())
+          { 
+            UserName = "Admin", 
+            Password = "P@sswOrd1", 
+            FirstName = "Admin", 
+            LastName = "User" 
+          } 
+        };
+        o.EnableFirstLastNameClaim = true;
+      });
+      ....
+    }
+
+## Initialize the Module
+
+Once the Module has been configured you initialize it. Please note that generic AspNetCore setup has been omitted.
+
+    ....
+    
+    // Initialize the Identity EF module
+    app.UsePiranhaIdentityEFSecurity();
+    
+    ....# PiranhaCore-Identity-EF-Module
 PiranhaCore Module that handles ASP.NET Core Identity with Entity Framework as the backing store.
